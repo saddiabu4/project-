@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+    .output {
+        display: none;
+    }
+    .input {
+        width: 100%;
+    }
+    .submit-btn {
+        width: 100%;
+    }
+    .clear-btn {
+        display: block;
+        margin-top: 10px;
+    }
+    .error-message {
+        margin-top: 10px;
+        color: red;
+    }
+    .success-message {
+        margin-top: 10px;
+        color: green;
+    }
+    .result {
+        margin-top: 10px;
+    }
+    .result p {
+        white-space: pre-wrap;
+    }
+    .result pre {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+    .result pre,
+    .error-message,
+    .success-message {
+        text-align: center;
+    }
+    .result pre {
+        font-family: monospace;
+    }
+    .result p {
+        margin-bottom: 10px;
+    }
+    .result p:last-child {
+        margin-bottom: 0;
+    }
+    .result {
+        margin-bottom: 20px;
+    }
+    .result {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    .result {
+        display: none;
+    }
+    .result-btn {
+        display: block;
+        margin-top: 10px;
+    }
+    .result-btn {
+        width: 100%;
+    }
+    .result-btn {
+        display: none;
+    }
+    .result-btn.show-result {
+        display: block;
+    }
+    .result-btn.hide-result {
+        display: none;
+    }
+    .result-btn.show-result:hover,
+    .result-btn.hide-result:hover {
+        cursor: pointer;
+    }
+    .result-btn.show-result:focus,
+    .result-btn.hide-result:focus {
+        outline: none;
+    }
+    .result-btn.show-result:active,
+    .result-btn.hide-result:active {
+        background-color: #ccc;
+    }
+    .result-btn.hide-result:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+    .result-btn.show-result:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+    
+}
